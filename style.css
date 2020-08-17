@@ -16,6 +16,7 @@ body{
 .btn{
     border-radius: 1.5rem;
     padding: 9px 20px;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .btn-privious{
@@ -39,3 +40,9 @@ body{
     border-radius: 15px;
 }
 
+
+.btn-success {
+    color: #fff;
+    background-color: #9B1F8D;
+    border-color: #9B1F8D;
+}

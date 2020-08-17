@@ -45,14 +45,16 @@
         <main class="content-area">
             <div class="search-bar col-md-6 mx-auto">
                 <h1 class="text-center">Lyrics Search</h1>
-                <div class="search-box my-5">
-                    <input type="text" class="form-control" placeholder="Enter your artist song name">
-                    <button class="btn btn-success search-btn">Search</button>
-                </div>
+                <form action="" id="form" autocomplete="off">
+                    <div class="search-box my-5">
+                        <input id="search" type="text" class="form-control" placeholder="Enter your artist song name">
+                        <button class="btn btn-success search-btn">Search</button>
+                    </div>
+                </form>
             </div>
             <!-- === Simple results === -->
             <div class="d-flex justify-content-center">
-                <div class="">
+                <div id="result" class="">
                     <p class="author lead"><strong>Purple Noon</strong> Album by <span>Washed Out</span> <button class="btn btn-success">Get Lyrics</button></p>
                     <p class="author lead"><strong>Purple Noon</strong> Album by <span>Washed Out</span> <button class="btn btn-success">Get Lyrics</button></p>
                     <p class="author lead"><strong>Purple Noon</strong> Album by <span>Washed Out</span> <button class="btn btn-success">Get Lyrics</button></p>
@@ -214,6 +216,7 @@
         </main>
     </div>
     <!-- Optional JavaScript -->
+    <script src="hello.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
