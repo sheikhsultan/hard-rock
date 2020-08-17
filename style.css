@@ -33,6 +33,7 @@ body{
     top: 0;
     right: 0;
     height: 100%;
+    font-weight: 700;
 }
 .single-result{
     background: rgba(255, 255, 255, 0.2);
@@ -44,4 +45,10 @@ body{
     color: #fff;
     background-color: #9B1F8D;
     border-color: #9B1F8D;
+}
+#fancyText{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+div, img{
+    border-radius: 50px;
 }
